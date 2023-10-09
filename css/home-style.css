@@ -1,6 +1,6 @@
 @font-face{
     font-family: gothamBook;
-    src:url(/Users/jacobmchan/Documents/website/assets/fonts/GothamBook.otf)
+    src:url(/assets/fonts/GothamBook.otf)
 }
 
 *{
@@ -35,7 +35,7 @@ body{
 
 .home-body-info1{
     text-align: center;
-    background-image: url(/Users/jacobmchan/Documents/website/assets/images/Background1.png);
+    background-image: url(/assets/images/Background1.png);
     color: white;
     margin: 50px auto;
 }
