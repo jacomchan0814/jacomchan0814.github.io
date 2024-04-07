@@ -1,0 +1,23 @@
+.website-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2.5%;
+    margin: 20px 2.5%;
+}
+
+.website-navbar-links a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.website-navbar-links a:hover{
+    text-decoration: underline;
+    transition: 0.3s linear;
+}
+
+.website-navbar-links a:hover::after{
+    text-decoration: none;
+    transition: 0.3s linear;
+}

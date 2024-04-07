@@ -1,0 +1,94 @@
+@font-face {
+    font-family: GothamBook;
+    src: url(../assets/fonts/Gotham-Book.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+* {
+    font-family: GothamBook;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+    transition: 0.3s linear;
+}
+
+.button {
+    border: 2px solid;
+    border-color: black;
+    border-radius: 0.25em;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+
+.button:hover {
+    transition: 0.15s ease-in-out;
+    text-decoration: underline;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px 2.5%;
+    text-decoration: dashed;
+}
+
+.website-body-info1 {
+    background-image: url(../assets/images/Background1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 86%;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    width: auto;
+}
+
+.website-body-info2 {
+    position: relative;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    justify-items: end;
+}
+
+.website-body-info2-box1 h2{
+    margin-bottom: 5px;
+}
+
+.website-body-info3 {
+    padding: 30px 14% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    text-align: center;
+}
+
+.website-body-info3-box1 {
+    padding: 50px 5%;
+    background-color: gray;
+    border-radius: 0.25em;
+    background-image: url(../assets/images/PvPArenaThumnail.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-items: center;
+}
